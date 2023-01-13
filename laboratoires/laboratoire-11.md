@@ -37,33 +37,33 @@ On sélectionne le modegraphique en appuyant directement sur "**Enter**"
 
 On choisit ensuite le clavier "**Swiss French**"
 
-![](<../.gitbook/assets/image (7).png>)
+![](<../.gitbook/assets/image (24).png>)
 
 Ensuite on accepte les deux fois l'initialisation des disques
 
-![](<../.gitbook/assets/image (22).png>)
+![](<../.gitbook/assets/image (14).png>)
 
 On sélectionne ensuite le disque où l'installation se fera
 
-![](<../.gitbook/assets/image (27).png>)
+![](<../.gitbook/assets/image (22).png>)
 
 On accepte les changements
 
-![](<../.gitbook/assets/image (3).png>)
+![](<../.gitbook/assets/image (4).png>)
 
 On édite ensuite le réseau du nic 1 et 2
 
-![](<../.gitbook/assets/image (4).png>)
+![](<../.gitbook/assets/image (8).png>)
 
 ![](<../.gitbook/assets/image (37).png>)
 
 On met ensuite la gateway et le dns puis on fait "**Next**"
 
-![](<../.gitbook/assets/image (70).png>)
+![](<../.gitbook/assets/image (32).png>)
 
 Maintenant on choisit notre timezone (sur Zurich)
 
-![](<../.gitbook/assets/image (60).png>)
+![](<../.gitbook/assets/image (40).png>)
 
 Maintenant on met un mot de passe : **Pa\$$w0rd**
 
@@ -71,13 +71,13 @@ Maintenant on met un mot de passe : **Pa\$$w0rd**
 
 On peut lancer l'installation maintenant
 
-![](<../.gitbook/assets/image (61).png>)
+![](<../.gitbook/assets/image (71).png>)
 
-![](<../.gitbook/assets/image (19).png>)
+![](<../.gitbook/assets/image (25).png>)
 
 Et on reboot
 
-![](<../.gitbook/assets/image (11).png>)
+![](<../.gitbook/assets/image (1).png>)
 
 ## 3. Accès Web
 
@@ -86,13 +86,13 @@ On se connecte avec les identifiants par défaut
 > openfiler\
 > password
 
-![](<../.gitbook/assets/image (26).png>)
+![](<../.gitbook/assets/image (19).png>)
 
-![](<../.gitbook/assets/image (30).png>)
+![](<../.gitbook/assets/image (38).png>)
 
 Une fois connecté nous arrivons sur la page d'administration
 
-![](<../.gitbook/assets/image (41).png>)
+![](<../.gitbook/assets/image (61).png>)
 
 ## 4. Création du stockage
 
@@ -143,7 +143,7 @@ Créé deux accès sur le disque depuis les réseaux, un depuis les adresses **1
 
 Retourner dans **Volumes**, **iSCSI Target** et **Network ACL** et autorisez l'accès pour ce réseau
 
-![](<../.gitbook/assets/image (44).png>)
+![](<../.gitbook/assets/image (57).png>)
 
 ## 8. Activation iSCSI sur H1 et H2
 
@@ -151,13 +151,13 @@ Pour activer le logiciel iSCSI allez sous **Datastore**, sous l'onglet **Adapter
 Faites les manipulations suivantes :\
 iSCSI activé : **cliquez sur enable**\
 Cibles dynamiques : ajouter une cible et entrez l'adresse du openfiler\
-****Enregistrer les configurations et lorsque vous rouvrez des cibles statiques apparaitront
+\*\*\*\*Enregistrer les configurations et lorsque vous rouvrez des cibles statiques apparaitront
 
-![](<../.gitbook/assets/image (17).png>)
+![](<../.gitbook/assets/image (5).png>)
 
 Retournez sous **Devices**, actualisez et un nouveau disque dur apparaitra
 
-![](<../.gitbook/assets/image (6).png>)
+![](<../.gitbook/assets/image (21).png>)
 
 ## 9. Création du DS\_SAN sur H1 et H2
 
@@ -166,8 +166,3 @@ Suivre laboratoire 7 en choisissant l'iSCSI
 {% content-ref url="laboratoire-7.md" %}
 [laboratoire-7.md](laboratoire-7.md)
 {% endcontent-ref %}
-
-
-
-
-

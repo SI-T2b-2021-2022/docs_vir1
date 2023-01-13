@@ -14,7 +14,7 @@ Pour configurer l'envoi d'un mail en cas d'alerte, allez sous **IP vCenter -> Co
 
 On se rend à la page **80**
 
-![](<../.gitbook/assets/image (31).png>)
+![](<../.gitbook/assets/image (68).png>)
 
 Puis on modifie
 
@@ -24,7 +24,7 @@ Puis on modifie
 
 Et changer y les informations concernant votre email
 
-![](<../.gitbook/assets/image (2).png>)
+![](<../.gitbook/assets/image (10).png>)
 
 ## 3. Définir des alarmes
 
@@ -38,16 +38,16 @@ Ajoutez y un **nom**, **une description**, ainsi que **le type de la cible**
 
 Dans cette partie, remplissez les informations comme l'image ci-dessous.
 
-![](<../.gitbook/assets/image (43).png>)
+![](<../.gitbook/assets/image (49).png>)
 
 On laisse par défaut les valeurs
 
-![](<../.gitbook/assets/image (57).png>)
+![](<../.gitbook/assets/image (64).png>)
 
 Et on créer l'alarme
 
-![](<../.gitbook/assets/image (5).png>)
+![](<../.gitbook/assets/image (16).png>)
 
 ## 4. Vérification
 
-![](<../.gitbook/assets/image (28).png>)
+![](<../.gitbook/assets/image (60).png>)

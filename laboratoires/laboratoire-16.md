@@ -26,11 +26,11 @@ Afin de créer une haute disponibilité il faut d'abord créer un cluster
 
 Faites clique droit sur **Datacenter-vSpher** et prenez **Nouveau cluster**
 
-![](<../.gitbook/assets/image (10).png>)
+![](<../.gitbook/assets/image (18).png>)
 
 Dans la nouvelle fenêtre : Nom : **Cluster-HA** **vShpere HA**
 
-![](<../.gitbook/assets/image (40).png>)
+![](<../.gitbook/assets/image (62).png>)
 
 ## 3. Déplacement des ESXi dans le cluster
 
@@ -54,31 +54,31 @@ Ensuite on se rend dans "**la configuration**" puis dans le "**démarrage rapide
 
 Puis on fait revalider les deux hôtes
 
-![](<../.gitbook/assets/image (72).png>)
+![](<../.gitbook/assets/image (33).png>)
 
 Ensuite on configure
 
-![](<../.gitbook/assets/image (8).png>)
+![](<../.gitbook/assets/image (6).png>)
 
 ### 2. Distributed Switches
 
 Première chose a configurer est le "**Distribued Switches**". On commence par sélectionné quelle vmnic sera utilisé. Dans notre cas le numéro **1** (tout en bas)
 
-![](<../.gitbook/assets/image (33).png>)
+![](<../.gitbook/assets/image (70).png>)
 
 Dans les "**Options acancées**" on coche toutes les cases et laissont le reste par défaut.
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (26).png>)
 
 En résumé
 
-![](<../.gitbook/assets/image (56).png>)
+![](<../.gitbook/assets/image (43).png>)
 
-![](<../.gitbook/assets/image (66).png>)
+![](<../.gitbook/assets/image (51).png>)
 
 Et voilà le cluster HA est configuré.
 
-![](<../.gitbook/assets/image (38).png>)
+![](<../.gitbook/assets/image (45).png>)
 
 ## 5. Activation de vSphere DRS
 
@@ -88,11 +88,11 @@ On se rend dans "**Configurer**" puis "**vShpere DRS**"
 
 Ensuite on clique sur "**Modifier**"
 
-![](<../.gitbook/assets/image (29).png>)
+![](<../.gitbook/assets/image (53).png>)
 
 Puis on active le DRS
 
-![](<../.gitbook/assets/image (39).png>)
+![](<../.gitbook/assets/image (65).png>)
 
 ## 6. Création règle de VM
 
@@ -128,7 +128,7 @@ La configuration doit être comme ceci
 
 On peut voir que actuellement deux VM tournent sur l'ESXi2
 
-![](<../.gitbook/assets/image (42).png>)
+![](<../.gitbook/assets/image (41).png>)
 
 Je fais une coupure de courant de l'ESXi
 
@@ -136,17 +136,17 @@ Je fais une coupure de courant de l'ESXi
 
 On voit que le vCenter a fait basculé sur **H1** les VM
 
-![](<../.gitbook/assets/image (23).png>)
+![](<../.gitbook/assets/image (9).png>)
 
-![](<../.gitbook/assets/image (34).png>)
+![](<../.gitbook/assets/image (58).png>)
 
 On attend que **H2** revienne à la vie
 
-![](<../.gitbook/assets/image (12).png>)
+![](<../.gitbook/assets/image (28).png>)
 
 Et voilà, on peut voir que les VM reviennent sur **H2**
 
-![](<../.gitbook/assets/image (18).png>)
+![](<../.gitbook/assets/image (2).png>)
 
 {% hint style="warning" %}
 Il aura fallut environ 5 heures pour comprendre comment fonctionnent les règles. Enjoy.

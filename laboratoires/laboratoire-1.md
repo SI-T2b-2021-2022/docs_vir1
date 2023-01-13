@@ -30,7 +30,7 @@ description: Installation de VMware ESXi
 
 ![](../.gitbook/assets/2.jpg)
 
-![](../.gitbook/assets/3.jpg)
+![](<../.gitbook/assets/3 (1).jpg>)
 
 ![](../.gitbook/assets/4.jpg)
 

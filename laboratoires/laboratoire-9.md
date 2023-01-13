@@ -63,8 +63,8 @@ Ensuite on accepte les termes
 Maintenant il nous faut entrer les données de connexion de notre hôte ESXi.
 
 > ESXi host or vCenter Server name : **10.10.34.2**\
-> ****User name : **root**\
-> ****Password : (Le mot de passe définit à l'installation.)
+> \*\*\*\*User name : **root**\
+> \*\*\*\*Password : (Le mot de passe définit à l'installation.)
 
 {% hint style="info" %}
 Il faudra également accepter la mise en garde pour le SSL (Voir screen2)
@@ -97,7 +97,7 @@ Ensuite on configure le réseau du vCenter
 
 ![](../.gitbook/assets/installer\_OjL8CgUnI6.png)
 
-Petit résumé de la configuration&#x20;
+Petit résumé de la configuration
 
 ![](../.gitbook/assets/installer\_jLzjphauyV.png)
 
@@ -163,31 +163,31 @@ On commence pas créer un nouveau Datacenter
 
 On commence en faisant clique droit sur "**Ajouter un hôte**"
 
-![](<../.gitbook/assets/image (46).png>)
+![](<../.gitbook/assets/image (63).png>)
 
 Ensuite on entre l'addresse IP de l'ESXi
 
-![](<../.gitbook/assets/image (13).png>)
+![](<../.gitbook/assets/image (11).png>)
 
 On rentre le compte root de l'ESXi
 
-![](<../.gitbook/assets/image (20).png>)
+![](<../.gitbook/assets/image (12).png>)
 
 On accepte que le certificat n'est pas verifié
 
-![](<../.gitbook/assets/image (47).png>)
+![](<../.gitbook/assets/image (44).png>)
 
 On reçoit un petit résumé de l'hôte ESXi
 
-![](<../.gitbook/assets/image (21).png>)
+![](<../.gitbook/assets/image (23).png>)
 
 On laisse la licence d'éval
 
-![](<../.gitbook/assets/image (16).png>)
+![](<../.gitbook/assets/image (13).png>)
 
 On laisse le mode de verrouillage sur "**Désactivé**"
 
-![](<../.gitbook/assets/image (25).png>)
+![](<../.gitbook/assets/image (17).png>)
 
 On a qu'un seul DC donc rien à changé ici
 
@@ -195,11 +195,11 @@ On a qu'un seul DC donc rien à changé ici
 
 Puis on finit
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (3).png>)
 
 Voilà notre hôte
 
-![](<../.gitbook/assets/image (24).png>)
+![](<../.gitbook/assets/image (7).png>)
 
 {% hint style="info" %}
 Refaire la même manipulation pour **H2**
