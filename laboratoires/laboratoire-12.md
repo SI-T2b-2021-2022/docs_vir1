@@ -22,34 +22,34 @@ _Avant d'effectuer ce laboratoire, assurez-vous que toutes les VM sont allumées
 
 On fait clique droit sur la machine et on sélectionne "**Migrer"**
 
-![](<../.gitbook/assets/image (47).png>)
+![](<../.gitbook/assets/image (18).png>)
 
 Ensuite on sélectionne "**Modifier la ressource de calcul et le stockage**"
 
-![](<../.gitbook/assets/image (72).png>)
+![](<../.gitbook/assets/image (27).png>)
 
 On sélectionne ensuite notre node H2
 
-![](<../.gitbook/assets/image (20).png>)
+![](<../.gitbook/assets/image (57).png>)
 
 On sélectionne le Stockage partagé donc "**DS\_SAN**"
 
-![](<../.gitbook/assets/image (48).png>)
+![](<../.gitbook/assets/image (34).png>)
 
 On garde le réseau des VM
 
-![](<../.gitbook/assets/image (36).png>)
+![](<../.gitbook/assets/image (32).png>)
 
 On sélectionne une priorité élevée pour que ce soit plus rapide
 
-![](<../.gitbook/assets/image (50).png>)
+![](<../.gitbook/assets/image (25).png>)
 
 Et on finit par le résumé
 
-![](<../.gitbook/assets/image (46).png>)
+![](<../.gitbook/assets/image (24).png>)
 
 ## 3. Vérification
 
 Et voila notre vm est sur H2
 
-![](<../.gitbook/assets/image (29).png>)
+![](../.gitbook/assets/image.png)

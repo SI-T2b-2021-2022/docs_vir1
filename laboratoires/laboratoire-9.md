@@ -163,43 +163,43 @@ On commence pas créer un nouveau Datacenter
 
 On commence en faisant clique droit sur "**Ajouter un hôte**"
 
-![](<../.gitbook/assets/image (63).png>)
+![](<../.gitbook/assets/image (22).png>)
 
 Ensuite on entre l'addresse IP de l'ESXi
 
-![](<../.gitbook/assets/image (11).png>)
+![](<../.gitbook/assets/image (70).png>)
 
 On rentre le compte root de l'ESXi
 
-![](<../.gitbook/assets/image (12).png>)
+![](<../.gitbook/assets/image (72).png>)
 
 On accepte que le certificat n'est pas verifié
 
-![](<../.gitbook/assets/image (44).png>)
+![](<../.gitbook/assets/image (14).png>)
 
 On reçoit un petit résumé de l'hôte ESXi
 
-![](<../.gitbook/assets/image (23).png>)
+![](<../.gitbook/assets/image (69).png>)
 
 On laisse la licence d'éval
 
-![](<../.gitbook/assets/image (13).png>)
+![](<../.gitbook/assets/image (67).png>)
 
 On laisse le mode de verrouillage sur "**Désactivé**"
 
-![](<../.gitbook/assets/image (17).png>)
+![](<../.gitbook/assets/image (46).png>)
 
 On a qu'un seul DC donc rien à changé ici
 
-![](<../.gitbook/assets/image (59).png>)
+![](<../.gitbook/assets/image (40).png>)
 
 Puis on finit
 
-![](<../.gitbook/assets/image (3).png>)
+![](<../.gitbook/assets/image (45).png>)
 
 Voilà notre hôte
 
-![](<../.gitbook/assets/image (7).png>)
+![](<../.gitbook/assets/image (54).png>)
 
 {% hint style="info" %}
 Refaire la même manipulation pour **H2**

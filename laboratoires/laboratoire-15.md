@@ -15,8 +15,8 @@ Cliquer sur la machine **Debian** et aller sous **Configurer -> Tâches planifi�
 
 Définissez y les paramètres que vous souhaitez
 
-![](<../.gitbook/assets/image (69).png>)
+![](<../.gitbook/assets/image (6).png>)
 
 Ensuite faite la même chose pour la **Mise sous tension** de la VM
 
-![](<../.gitbook/assets/image (52).png>)
+![](<../.gitbook/assets/image (43).png>)
