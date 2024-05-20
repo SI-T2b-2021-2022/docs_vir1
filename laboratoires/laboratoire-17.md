@@ -11,15 +11,15 @@ Proposez une stratégie de sauvegarde pour vos machines virtuelles et serveurs E
 
 Pour effectuer une sauvegarde pour l'exportation, rien de plus simple. On se rend sur notre vCenter ou notre ESXi, puis on fait "**clique droit**" sur la vm que l'on veut exporter. Ensuite on sélectionne "**modèle**", puis "**exporter le modèle OVF**".
 
-![](<../.gitbook/assets/image (51).png>)
+![](<../.gitbook/assets/image (69).png>)
 
 Ensuite on donne un petit nom à notre export
 
-![](<../.gitbook/assets/image (21).png>)
+![](<../.gitbook/assets/image (3).png>)
 
 Il ne reste plus qu'à choisir l'emplacement du téléchargement
 
-![](<../.gitbook/assets/image (9).png>)
+![](<../.gitbook/assets/image (38).png>)
 
 {% hint style="warning" %}
 Celà va télécharger 3 fichiers. Il faut garder les trois ensemble précieusement.
@@ -33,6 +33,6 @@ L'importation sera en plus simple, il suffit de double cliqué sur le fichier OV
 
 Et voilà c'est importé
 
-![](<../.gitbook/assets/image (2).png>)
+![](<../.gitbook/assets/image (39).png>)
 
-![](<../.gitbook/assets/image (35).png>)
+![](<../.gitbook/assets/image (21).png>)

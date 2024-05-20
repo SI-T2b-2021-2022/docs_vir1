@@ -20,7 +20,7 @@ On migre les VM
 
 Voilà toutes les VM sont sur **H2**
 
-![](<../.gitbook/assets/image (30).png>)
+![](<../.gitbook/assets/image (24).png>)
 
 ## 3. Passage en mode maintenance
 
